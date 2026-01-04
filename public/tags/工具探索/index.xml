@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>工具探索 on 纸堆</title>
+    <link>http://localhost:1313/tags/%E5%B7%A5%E5%85%B7%E6%8E%A2%E7%B4%A2/</link>
+    <description>Recent content in 工具探索 on 纸堆</description>
+    <generator>Hugo -- 0.154.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 21 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E5%B7%A5%E5%85%B7%E6%8E%A2%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用Python的你，为什么应该尝试uv</title>
+      <link>http://localhost:1313/posts/why-you-should-try-uv/</link>
+      <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/why-you-should-try-uv/</guid>
+      <description>从脚本迈向工程，你需要一把趁手的武器。</description>
+    </item>
+  </channel>
+</rss>

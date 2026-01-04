@@ -1,0 +1,83 @@
+baseURL: https://example.org/
+defaultContentLanguage: zh
+languageCode: zh-cn
+title: 纸堆
+theme: "PaperMod"
+
+languages:
+  zh:
+    languageName: 中文
+    weight: 1
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  DateFormat: "2006-1-2"
+  defaultTheme: auto
+  
+  ShowToc: true
+  TocOpen: false
+  # 添加自定义CSS
+  customCSS:
+    - css/extended/custom.css
+  
+  label:
+  text: "Home"
+  icon: /apple-touch-icon.png
+  iconHeight: 35
+
+  homeInfoParams:
+    Title: "Hi there"
+    Content: Welcome to my blog
+
+  socialIcons:
+    - name: x
+      url: "https://x.com/"
+    - name: bilibili
+      url: "https://bilibili.com/"
+    - name: github
+      url: "https://github.com/"
+
+  # 显示所有页面（包括非文章页面）在归档中
+  ShowAllPagesInArchive: false
+  # 在归档页面显示RSS按钮
+  ShowRssButtonInSectionTermList: true
+
+  ShowBreadCrumbs: true
+
+
+menu:
+  main:
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 10
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: 归档
+      url: /archives/
+      weight: 30
+    - identifier: about
+      name: 关于
+      url: /about/
+      weight: 40
+    # - identifier: example
+    #   name: example.org
+    #   url: https://example.org
+    #   weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
